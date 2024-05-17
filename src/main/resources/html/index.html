@@ -9,20 +9,32 @@
 <body>
 <header>
     <div class="container">
-        <h1>Thereso Phele</h1>
+        <div class="profile" id="profile">
+            <h1>Thereso Phele</h1>
+            <img src="pictures/profile.jpg" >
+        </div>
+        
         <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="menu-container">
+                <div class="menu-toggle" id="menu-toggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul id="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </div>
 </header>
 
 <section id="about" class="container">
     <h2>About Me</h2>
+    <h3>Software</br>Developer</h3>
     <p>Hello! I'm Thereso, a passionate backend developer with expertise in creating robust and scalable server-side applications. I enjoy solving complex problems and building efficient systems.</p>
 </section>
 
@@ -58,6 +70,6 @@
         <p>&copy; 2024 Thereso Phele</p>
     </div>
 </footer>
-<script src="scripts.js"></script>
+<script src="script/script.js"></script>
 </body>
 </html>
