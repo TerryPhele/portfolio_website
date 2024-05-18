@@ -13,6 +13,17 @@
             <h1>Thereso Phele</h1>
             <img src="pictures/profile.jpg" >
         </div>
+
+        <div class="contact-nav">
+            <a href="https://www.facebook.com" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.482v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.894-4.788 4.66-4.788 1.325 0 2.463.099 2.795.143v3.241l-1.917.001c-1.504 0-1.794.715-1.794 1.763v2.311h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.324v-21.351c0-.732-.593-1.325-1.324-1.325z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22.225 0h-20.451c-.982 0-1.774.793-1.774 1.775v20.451c0 .982.792 1.774 1.774 1.774h20.451c.982 0 1.774-.792 1.774-1.774v-20.451c0-.982-.792-1.775-1.774-1.775zm-14.326 20.452h-3.319v-10.125h3.319v10.125zm-1.659-11.552c-1.061 0-1.922-.861-1.922-1.922 0-1.06.861-1.921 1.922-1.921 1.06 0 1.921.861 1.921 1.921 0 1.061-.861 1.922-1.921 1.922zm13.319 11.552h-3.319v-5.443c0-1.295-.027-2.964-1.805-2.964-1.804 0-2.08 1.409-2.08 2.868v5.539h-3.319v-10.125h3.182v1.384h.045c.443-.839 1.526-1.722 3.143-1.722 3.36 0 3.982 2.212 3.982 5.088v5.375z"/></svg>
+            </a>
+
+        </div>
         
         <nav>
             <div class="menu-container">
@@ -32,39 +43,114 @@
     </div>
 </header>
 
-<section id="about" class="container">
-    <h2>About Me</h2>
-    <h3>Software</br>Developer</h3>
-    <p>Hello! I'm Thereso, a passionate backend developer with expertise in creating robust and scalable server-side applications. I enjoy solving complex problems and building efficient systems.</p>
-</section>
+<div class="main-content"  id="main-content">
+    <section id="about" class="container">
+        <h2 class="gradient-text2">About Me</h2>
+         <div>
+             <h3 class="gradient-text">Software</br>Developer</h3>
+             <img src="pictures/about.jpg">
+         </div>
 
-<section id="skills" class="container">
-    <h2>Skills</h2>
-    <ul>
-        <li>Programming Languages: Python, JavaScript, Java, VB(visual basics), C++</li>
-        <li>Web technologies: Thymeleaf, HTML/CSS, REST-APIS, JSON</li>
-        <li>Databases: SQLite with JDBC,</li>
-        <li>Tools: Git, basics of CI/CD, basics of docker</li>
-    </ul>
-</section>
+        <p  class="gradient-text2">Hello! I'm Thereso, a passionate backend developer with expertise in creating robust and scalable server-side applications. I enjoy solving complex problems and building efficient systems.</p>
+    </section>
 
-<section id="projects" class="container">
-    <h2>Projects</h2>
-    <div class="project">
-        <h3>Project One</h3>
-        <p>Simulated ATM system. <a href="https://github.com/TerryPhele/Simulated_ATM">GitHub-ATM</a></p>
-    </div>
-    <div class="project">
-        <h3>Project Two</h3>
-        <p>Simulated Flight booking system <a href="https://github.com/TerryPhele/simulated_flight_booking_system">GitHub-Flight</a></p>
-    </div>
-</section>
+    <section id="skills" class="container">
+        <h2 class="gradient-text2">Skills</h2>
+        <ul>
+            <li class="languages">Programming Languages:
+                <p><img id="skillspicture" src="pictures/skills.jpg"/></p>
+                <p>
+                    <em>
+                        <span id="python">Python,</span>
+                        <span id="javascript">JavaScript,</span>
+                        <span id="java">Java,</span>
+                        <span id="vb">VB(visual basics),</span>
+                        <span id="c++"> C++</span>
+                    </em>
+                </p>
+            </li>
 
-<section id="contact" class="container">
-    <h2>Contact</h2>
-    <p>You can reach me at <a href="mailto:thereso198@gmail.com">thereso198@gmail.com</a> or follow me on <a href="https://linkedin.com/in/thereso-phele-71a54a226">LinkedIn</a>.</p>
-</section>
+            <li class="webTech">Web technologies:
+                <p><img id="webpicture" src="pictures/webTech.jpg"/></p>
+                <ul>
+                    <li id="thymeleaf">Thymeleaf</li>
+                    <li id="html">HTML/CSS</li>
+                    <li id="Api"> REST-APIS</li>
+                    <li id="Json">JSON</li>
+                </ul>
 
+            </li>
+
+            <li  class="database">Databases:
+                <p><img id="databasepicture" src="pictures/database.png"/></p>
+                <ul>
+                    <li id="sqlite">SQLite with JDBC</li>
+                </ul>
+            </li>
+
+            <li  class="tools">Tools:
+                <p><img id="toolspicture" src="pictures/tools.jpg"/></p>
+                <ul>
+                    <li id="git">Git</li>
+                    <li id="cicd">basics of CI/CD</li>
+                    <li id="docker">basics of docker</li>
+                </ul>
+            </li>
+        </ul>
+
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="gradient-text2">Projects</h2>
+        <div class="project1">
+            <h4>Simulated ATM system. </br> <a href="https://github.com/TerryPhele/Simulated_ATM">GitHub-ATM</a></h4>
+            <img id="atm" src="pictures/atm.jpg"/>
+            <section class="description">
+                "The project is about simulating the real world Atm system where users can make several trannsaction depending on their
+                goals and provided that they hold an account and have access to it."
+            </section>
+
+        </div>
+        <div class="project2">
+            <h4>Simulated Flight booking system </br> <a href="https://github.com/TerryPhele/simulated_flight_booking_system">GitHub-Flight</a></h4>
+            <img id="flight" src="pictures/flight.jpg"/>
+            <section class="description">
+                "The project is about simulating the real world flight booking system that allows the users to book their desired particular flight on an online/website platform from one airline to another,
+                the system will then give back the necessary information about the booking. users are given options to either stick to their bookings or cancel
+                at any time.
+            </section>
+        </div>
+
+        <div class="project3">
+            <h4>Simulated Flight booking system</br> <a href="https://github.com/TerryPhele/simulated_flight_booking_system">GitHub-Flight</a></h4>
+            <img id="numbermatcher" src="pictures/guessNumber.jpg"/>
+            <section class="description">
+                "The project is about allowing the user to guess a certain computer generated code in a limited time, if the user guess it correct;y then
+                they proceed to another level, difficult level gets harder and harder as you proceed, if you fail to guess the code you loose.
+            </section>
+        </div>
+
+        <div class="project4">
+            <h4>Simulated Flight booking system </br> <a href="https://github.com/TerryPhele/simulated_flight_booking_system">GitHub-Flight</a></h4>
+            <div class="image-container">
+                <img  id="tictactoe" src="pictures/tictactoe.jpg"/>
+            </div>
+
+            <section class="description">
+               "The project is about based on  the real tic-tac-toe game, however this is based on two clients playing with each
+                other by connecting to a server, clients are limited to make certain number of places each, if no one wins,
+                during the places, then they are both given the chance to move until one of them wins".
+            </section>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>You can reach me at <a href="mailto:thereso198@gmail.com">thereso198@gmail.com</a>
+            </br>or sms me on 0765641019</br>
+            or follow me on <a href="https://linkedin.com/in/thereso-phele-71a54a226">LinkedIn</a>.</p>
+    </section>
+</div>
 <footer>
     <div class="container">
         <p>&copy; 2024 Thereso Phele</p>
